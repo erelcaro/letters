@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'gadi';
+  font-weight: 400;
+  font-stretch: normal;
+  src: url('fonts/gadi.otf') format('truetype');
+  font-style: normal;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+    font-family: gadi;
+}
+canvas {
+  display: block;
+}
+canvas {
+  direction: rtl !important;
+  text-align: right !important;
+}
+
+* {
+  direction: rtl !important;
+  font-family: gadi;
+}
+
+#backgroundMusicPlay {
+  position:absolute;
+  bottom:30px;
+  left:30px;
+}
